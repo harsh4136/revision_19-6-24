@@ -28,14 +28,27 @@ class demo{
             cout<<"Inch = "<<inch<<endl;
         }
 };
+    
+class harsh : public demo
+{
+    string name;
+    public:
+        void print_name(){
+            cout<<"Enter your name : ";
+            cin>>name;
+            cout<<"User's name is : "<<name<<endl;
+        }
+};
+
 int main(){
     mann m;
+    harsh data;
     demo d1;
     demo d2(3);
     demo d3(4,4.5);
     m.print_myInfo();
     d1.show();
     d2.show();
-    d3.show();
+    data.print_name();
     return 0;
 }
