@@ -50,5 +50,6 @@ int main(){
     d1.show();
     d2.show();
     data.print_name();
+    cout<<"Program ended successfully";
     return 0;
 }
