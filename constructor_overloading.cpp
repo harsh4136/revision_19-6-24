@@ -8,23 +8,23 @@ class mann{
         }
 };
 class demo{
-    int feet;
+    int ft;
     float inch;
     public:
         demo(){
-            feet = 2;
+            ft = 2;
             inch = 2.25;
         }
         demo(int value){
-            feet =value;
+            ft =value;
             inch = value;
         }
         demo(int data1, float data2){
-            feet = data1;
+            ft = data1;
             inch = data2;
         }
         void show(){
-            cout<<"Feet = "<<feet<<endl;
+            cout<<"Feet = "<<ft<<endl;
             cout<<"Inch = "<<inch<<endl;
         }
 };
