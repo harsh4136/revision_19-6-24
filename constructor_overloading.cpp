@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
 
+class mann{
+    public:
+        void print_myInfo() {
+            cout<<"Helo my name is mann bhalodiya i am studing in diploma";
+        }
+};
 class demo{
     int feet;
     float inch;
@@ -23,10 +29,11 @@ class demo{
         }
 };
 int main(){
+    mann m;
     demo d1;
     demo d2(3);
     demo d3(4,4.5);
-
+    m.print_myInfo();
     d1.show();
     d2.show();
     d3.show();
